@@ -1,0 +1,24 @@
+html {
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+header {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    gap: 15px;
+    float: right;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: bold;
+}
