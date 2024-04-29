@@ -1,5 +1,5 @@
 html {
-    width: 75%;
+    width: 50%;
     margin: 0 auto;
 
 }
@@ -21,4 +21,45 @@ header {
 .nav-item {
     font-size: 20px;
     font-weight: bold;
+}
+
+.about-me {
+   display: flex;
+   gap: 10px; 
+
+}
+
+.profile {
+    width: 500px;
+    height: auto;
+}
+
+.bio {
+    font-size: 22px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.projects {
+    margin-top: 100px;
+}
+
+.skills {
+    margin-top: 50px;
+}
+
+.languages {
+    font-size: 18px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.contact p{
+    font-size: 20px;
 }
