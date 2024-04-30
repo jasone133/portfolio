@@ -63,3 +63,10 @@ header {
 .contact p{
     font-size: 20px;
 }
+
+@media only screen and (max-width: 480px) {
+    .profile {
+      width: 200px;
+      height: auto;
+    }
+  }
