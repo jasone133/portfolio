@@ -30,12 +30,12 @@ header {
 }
 
 .profile {
-    width: 500px;
-    height: auto;
+    width: 50%;
+    height: 50%;
 }
 
 .bio {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .nav-item a {
@@ -64,9 +64,15 @@ header {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 480px) {
+.full-bio {
+    min-width: 250px;
+}
+
+@media only screen and (max-width: 700px) {
     .profile {
-      width: 200px;
-      height: auto;
+      width: 50%;
+    }
+    html {
+        width: 100%;
     }
   }
